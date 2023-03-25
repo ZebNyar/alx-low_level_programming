@@ -1,5 +1,5 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 /**
  * main - point of entry
  * Description:Print the number 1 - 100
