@@ -2,9 +2,11 @@
 #include "main.h"
 /**
  * main - point of entry
+ *
  * Description:Print the number 1 - 100
  * 3 multiples print fizz, 5 multiples print buzz
  * prints fizzbuzz for multiples of both
+ *
  * Return: always 0
  */
 
