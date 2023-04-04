@@ -2,16 +2,16 @@
 
 /**
  * _strstr - locates a substring
- * @haystack: string to be searched
- * @needle: substring to be located
+ * @haystack: the string to be searched
+ * @needle: the substring to be located
  *
- * Return: if substring is located a pointer at the beginning
- * if not located - null
+ * Return: if the substring is located - a pointer at the beginning
+ *					of the located substring
+ * if the sbstring is not located - NULL
  */
 
 char *_strstr(char *haystack, char *needle)
 {
-
 	int index;
 
 	if (*needle == 0)
@@ -23,11 +23,12 @@ char *_strstr(char *haystack, char *needle)
 
 			if (haystack[index] == needle[index])
 			{
-				do				{
+				do {
 					if (needle[index + 1] == '\0')
 						return (haystack);
 
 					index++;
+
 				} while (haystack[index] == needle[index]);
 			}
 
